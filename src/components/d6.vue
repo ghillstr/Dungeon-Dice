@@ -40,7 +40,7 @@ export default {
 
     methods:{
         diceRoll() {
-            axios.get('https://rolz.org/api/?' + this.diceNumber + 'd20.json')
+            axios.get('https://rolz.org/api/?' + this.diceNumber + 'd6.json')
             .then( (response) => {
                 this.result = response.data.result;
                 this.details = response.data.details;
