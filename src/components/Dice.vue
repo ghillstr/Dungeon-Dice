@@ -8,7 +8,7 @@
           <td>Modifer (+/-)</td>
           <td>Roll</td>
           <td>Results</td>
-          <td>Details<span>(dice) & modifer</span></td>
+          <td>Details<span> (dice) & modifer</span></td>
       </tr>
     </div>
  </header>

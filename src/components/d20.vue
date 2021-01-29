@@ -67,7 +67,7 @@ export default {
  #dice .img {
     width : 0%;
     padding-left: 0%;
-    padding-right: 12%;
+    padding-right: 11%;
 
 }
 
