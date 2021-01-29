@@ -8,7 +8,7 @@
           <td>Modifer (+/-)</td>
           <td>Roll</td>
           <td>Results</td>
-          <td>Details<ul>(dice) & modifer</ul></td>
+          <td>Details<span>(dice) & modifer</span></td>
       </tr>
     </div>
  </header>
@@ -53,12 +53,43 @@ export default {
     padding-left: 80px;
    
 }
-ul {
+span{
     font-size : 20px;
+    display: inline-block;
+    text-align: center;
+    
     
 }
 #dieNumber{
     padding-left: 170px;
 }
+@media  screen and (max-width: 600px) {
+    #headline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    }
+     #titles{
+         margin-left : 0px;
+         font-size : 18px;
+         padding-bottom: 30px;
+         padding-left: 0px;
+}
+    span {
+        font-size :10px;
+    }
+    #titles .Die {
+        padding-left: 0px;
+        padding-right: 0px;
+}   
+    #titles td {
+        width: 0%;
+        padding : 0px;
+        padding-bottom: 20px;
+            padding-left: 8px;
+   
+}
 
+    
+}
 </style>

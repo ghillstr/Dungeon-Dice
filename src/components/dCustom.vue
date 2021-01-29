@@ -107,6 +107,26 @@ export default {
     color: red;
 
 }
+@media screen  and (max-width: 600px){
+    #dice-type-custom {
+        font-size : 15px;
+    }
+    #dCustombtn {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+#userNumber {
+    width : 45px;   
+}
+#customDice .numberBox {    
+    padding-right: 0%;   
+}
+#numberOfDice {
+    width : 30%;
+    padding-right : 10px;
+}
+}
+
 
 
 

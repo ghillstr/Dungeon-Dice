@@ -126,6 +126,36 @@ button:hover {
 #result {
     font-size: 32px;
 }
+@media screen  and (max-width: 600px) {
+
+    form {
+    margin-left : 0px;
+}
+#dice-type{
+    font-size: 18px;
+    
+}
+ #dice .img {
+     display: none;
+    width : 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+#dice td{
+    width : 5=10%;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+}
+button {
+    
+    padding: 10px 10px;
+    font-size: 18px;
+}
+    
+}
 
 
 
