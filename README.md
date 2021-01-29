@@ -1,29 +1,6 @@
-# dugeon-dice
+Dice roller Using rolz.org/help/api
 
-## Project setup
-```
-npm install
-```
+![Screenshot 2021-01-15 121513](https://user-images.githubusercontent.com/72319601/105778832-2564bc00-5f3b-11eb-88d3-db396e2ccc27.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+later options
+-molbile
